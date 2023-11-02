@@ -6,4 +6,4 @@ Clone and build and install the [RISC-V GNU tool chain](https://github.com/riscv
 ./configure --prefix=/opt/riscv
 make
 ```
-
+Add `/opt/riscv` to the **PATH**.
