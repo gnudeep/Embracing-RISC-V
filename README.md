@@ -5,7 +5,7 @@ In this workshiop participants will get an introduction to RISC-V architecture, 
 
 In the hands-on tutorial we build a simple boot loader and boot StarFive Vision 2 boarf. 
 
-To build the boot loader, we need to [setup the GNU tool chain](). 
+To build the boot loader, we need to [setup the GNU tool chain](tool-chain-setup.md). 
 
 
 
