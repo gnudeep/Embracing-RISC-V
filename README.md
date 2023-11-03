@@ -6,9 +6,11 @@ In the hands-on tutorial we build a simple boot loader and boot [StarFive Vision
 
 To follow this tutorial, participants need a Linux machine with a Internet connection.
 * Perefered OS: Ubuntu LTS 64bit.
-* Machine or a laption with a USC port.
+* Machine or a laption with a USB port.
 
-To build the boot loader, we need to [setup the GNU tool chain](tool-chain-setup.md). 
+To build binaries, we need to [setup the GNU tool chain](tool-chain-setup.md). 
+
+You can try to build the [sample C program](https://github.com/gnudeep/hello-world-riscv.git) using this toolchain. 
 
 To test the build boot loader we need QEMU emulater with qemu-system-riscv64 capability.
 
