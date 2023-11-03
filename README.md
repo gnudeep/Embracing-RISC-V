@@ -1,4 +1,5 @@
-# ICTer2023 Workshop - Embracing-RISC-V
+# ICTer2023 Workshop - Embracing-RISC-V 
+<img src="https://riscv.org/wp-content/uploads/2020/06/riscv-color.svg" width="500" height="100">
 
 In this workshiop participants will get an introduction to [RISC-V architecture](https://riscv.org/about/), hands-on tutorial to build a simple OS kernel, bootloader, and hardware interfacing.
 
