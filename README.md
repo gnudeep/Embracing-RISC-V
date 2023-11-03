@@ -1,12 +1,12 @@
 # ICTer2023 Workshop - Embracing-RISC-V
 
-In this workshiop participants will get an introduction to RISC-V architecture, hands-on tutorial to build a simple OS kernel, bootloader, and hardware interfacing.
+In this workshiop participants will get an introduction to [RISC-V architecture](https://riscv.org/about/), hands-on tutorial to build a simple OS kernel, bootloader, and hardware interfacing.
 
 In the hands-on tutorial we build a simple boot loader and boot [StarFive VisionFive2](https://www.starfivetech.com/en/site/boards) board. 
 
 To follow this tutorial, participants need a Linux machine with a Internet connection.
-* Perefered OS: Ubuntu LTS 64bit.
-* Machine or a laption with a USB port.
+* Perefered OS: Ubuntu 22.04 LTS 64 bit.
+* Machine or a laptop with a USB port.
 
 To build binaries, we need to [setup the GNU tool chain](tool-chain-setup.md). 
 
@@ -17,7 +17,3 @@ You can try to build the [sample C program](https://github.com/gnudeep/hello-wor
 Build the [example boot loader](https://github.com/gnudeep/SysResOS.git) using the RISC-V tool chain.
 
 To test the build boot loader we need QEMU emulater with qemu-system-riscv64 capability.
-
-
-
-
