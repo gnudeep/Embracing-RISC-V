@@ -7,6 +7,10 @@ In the hands-on tutorial we build a simple boot loader and boot [StarFive Vision
 
 To follow this tutorial, participants need a Linux machine with a Internet connection.
 * Perefered OS: Ubuntu 22.04 LTS 64 bit.
+* Ubuntu packages
+  * autoconf automake autotools-dev curl python3 python3-pip libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build git cmake libglib2.0-dev
+  * device-tree-compiler
+  * u-boot-tools
 * Machine or a laptop with a USB port.
 
 To build binaries, we need to [setup the GNU tool chain](tool-chain-setup.md). 
