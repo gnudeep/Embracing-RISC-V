@@ -6,11 +6,13 @@ Clone and build and install the [RISC-V GNU tool chain](https://github.com/riscv
 ```
 ./configure --prefix=/opt/riscv
 make
+or
+make linux
 ```
 Add `/opt/riscv` to the `PATH`.
 
 You can alter the configuration according to the requirements. 
 ```
 ./configure --prefix=/opt/riscv-zifencei --host=riscv64-unknown-elf --with-arch=rv64imafdczifencei
-amake
+make
 ```
